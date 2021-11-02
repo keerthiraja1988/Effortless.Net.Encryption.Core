@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Effortless.Net.Encryption", "Effortless.Net.Encryption.Core\Effortless.Net.Encryption.csproj", "{7057C2C1-8995-43C6-AD94-4C43B9FDDEFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Effortless.Net.Encryption.Tests.Unit", "Effortless.Net.Encryption.Tests.Unit\Effortless.Net.Encryption.Tests.Unit.csproj", "{3E67164D-3A80-41DC-BC2A-95845C3AAE98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Effortless.Net.Encryption.Tests.Unit", "Effortless.Net.Encryption.Tests.Unit\Effortless.Net.Encryption.Tests.Unit.csproj", "{3E67164D-3A80-41DC-BC2A-95845C3AAE98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5BB74422-C775-44AF-A768-859411B6FE3E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

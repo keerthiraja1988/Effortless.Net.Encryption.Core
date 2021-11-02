@@ -19,8 +19,19 @@
     <Copyright>Copyright © Simon Hughes 2012</Copyright>
     <PackageProjectUrl>https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core</PackageProjectUrl>
     <RepositoryUrl>https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core</RepositoryUrl>
-    <AssemblyVersion>1.1.2.1752</AssemblyVersion>
-    <FileVersion>1.1.2.1752</FileVersion>
+    <AssemblyVersion>1.0.0.4</AssemblyVersion>
+    <FileVersion>1.0.0.4</FileVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <ShouldCreateLogs>True</ShouldCreateLogs>
+    <AdvancedSettingsExpanded>True</AdvancedSettingsExpanded>
+    <UpdateAssemblyVersion>False</UpdateAssemblyVersion>
+    <UpdateAssemblyFileVersion>False</UpdateAssemblyFileVersion>
+    <UpdateAssemblyInfoVersion>False</UpdateAssemblyInfoVersion>
+    <UpdatePackageVersion>False</UpdatePackageVersion>
+    <AssemblyInfoVersionType>SettingsVersion</AssemblyInfoVersionType>
+    <InheritWinAppVersionFrom>None</InheritWinAppVersionFrom>
   </PropertyGroup>
 
   <ItemGroup>
