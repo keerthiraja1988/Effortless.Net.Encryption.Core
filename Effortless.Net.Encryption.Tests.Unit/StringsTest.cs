@@ -107,7 +107,7 @@ namespace Effortless.Net.Encryption.Tests.Unit
         {
             const string password = "Hello world";
             const string salt = "saltsaltsalt";
-            var iv = string.Empty.PadLeft(32, '#');
+            var iv = string.Empty.PadLeft(16, '#'); //todo
             const string original = "My secret text";
 
             var encrypted = Strings.Encrypt(original, password, salt, iv, keySize, 1);
