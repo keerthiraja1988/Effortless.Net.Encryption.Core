@@ -1,10 +1,12 @@
-## Effortless .Net Encryption
+## PACKAGE IN DEVELOPMENT STAGE
+
+## Effortless .Net Encryption Core
 
 ### Project Description
 
 .Net Core version of https://github.com/sjh37/Effortless-.Net-Encryption
  
-Effortless .Net Encryption is a library that is written in C# and provides:
+Effortless .Net Encryption Core is a library that is written in C# + .Net Core and provides:
 
 *   Rijndael encryption/decryption.
 *   Hashing and Digest creation/validation.
