@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>
 
     <IsPackable>false</IsPackable>
 
@@ -19,9 +19,9 @@
     <Copyright>Copyright © Simon Hughes 2012</Copyright>
     <PackageProjectUrl>https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core</PackageProjectUrl>
     <RepositoryUrl>https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core</RepositoryUrl>
-    <AssemblyVersion>1.0.0.4</AssemblyVersion>
-    <FileVersion>1.0.0.4</FileVersion>
-    <Version>1.0.4</Version>
+    <AssemblyVersion>1.0.0.5</AssemblyVersion>
+    <FileVersion>1.0.0.5</FileVersion>
+    <Version>1.0.5</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
