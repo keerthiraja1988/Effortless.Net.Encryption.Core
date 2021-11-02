@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Effortless.Net.Encryption", "Effortless.Net.Encryption.Core\Effortless.Net.Encryption.csproj", "{7057C2C1-8995-43C6-AD94-4C43B9FDDEFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Effortless.Net.Encryption.Tests.Unit", "Effortless.Net.Encryption.Tests.Unit\Effortless.Net.Encryption.Tests.Unit.csproj", "{3E67164D-3A80-41DC-BC2A-95845C3AAE98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7057C2C1-8995-43C6-AD94-4C43B9FDDEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7057C2C1-8995-43C6-AD94-4C43B9FDDEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7057C2C1-8995-43C6-AD94-4C43B9FDDEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7057C2C1-8995-43C6-AD94-4C43B9FDDEFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E67164D-3A80-41DC-BC2A-95845C3AAE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E67164D-3A80-41DC-BC2A-95845C3AAE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E67164D-3A80-41DC-BC2A-95845C3AAE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E67164D-3A80-41DC-BC2A-95845C3AAE98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E05376EB-C6EB-4D48-AD6F-4539CFD24BF4}
+	EndGlobalSection
+EndGlobal
