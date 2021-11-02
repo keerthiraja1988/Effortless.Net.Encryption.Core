@@ -42,8 +42,9 @@ namespace Effortless.Net.Encryption
         {
             Default = 128,
             Size128 = 128,
-            Size192 = 192,
-            Size256 = 256
+            //Size192 = 192,
+            //Size256 = 256
+            //todo
         }
 
         public enum KeySize
