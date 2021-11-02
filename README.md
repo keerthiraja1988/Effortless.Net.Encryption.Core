@@ -2,7 +2,7 @@
 
 ### Project Description
 
-.Net Core version of https://github.com/sjh37/Effortless-.Net-Encryption
+.Net Core version of https://github.com/sjh37/Effortless-Net-Encryption
  
 Effortless .Net Encryption is a library that is written in C# and provides:
 
@@ -10,13 +10,15 @@ Effortless .Net Encryption is a library that is written in C# and provides:
 *   Hashing and Digest creation/validation.
 *   Password and salt creation.
 
+Thanks to Simon Hughes
+
 ### Nuget
 
 [https://www.nuget.org/packages/Effortless.Net.Encryption.Core/](https://www.nuget.org/packages/Effortless.Net.Encryption.Core/ "https://www.nuget.org/packages/Effortless.Net.Encryption.Core/")
 
-To install Effortless.Net.Encryption, run the following command in the [ Package Manager Console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console)
+To install Effortless.Net.Encryption.Core, run the following command in the [ Package Manager Console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console)
 
-`PM> Install-Package Effortless.Net.Encryption.Core`
+`PM> dotnet add package Effortless.Net.Encryption.Core`
 
 ### Overview
 
