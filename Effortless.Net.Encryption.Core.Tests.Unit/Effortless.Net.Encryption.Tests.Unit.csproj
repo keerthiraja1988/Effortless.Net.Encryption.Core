@@ -5,23 +5,23 @@
 
     <IsPackable>false</IsPackable>
 
-    <PackageId>Effortless.Net.Encryption.Tests.Unit</PackageId>
+    <PackageId>Effortless.Net.Core.Encryption</PackageId>
     <Authors>Keerthi Raja P</Authors>
     <Company>Simon Hughes, www.hicrest.net</Company>
-    <Product>Effortless.Net.Encryption.Tests.Unit</Product>
+    <Product>Effortless.Net.Core.Encryption</Product>
     <Description>
       .Net Core version of https://github.com/sjh37/Effortless-.Net-Encryption
 
-      Effortless .Net Encryption Core is a library that provides: Rijndael encryption/decyption, Hashing and Digest creation/validation and Password/salt creation.
+      Effortless .Net Core Encryption  is a library that provides: Rijndael encryption/decyption, Hashing and Digest creation/validation and Password/salt creation.
 
       Thanks to Simon Hughes
     </Description>
     <Copyright>Copyright © Simon Hughes 2012</Copyright>
-    <PackageProjectUrl>https://keerthirajap.github.io/Effortless.Net.Encryption.Core/</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/keerthirajap/Effortless.Net.Encryption.Core</RepositoryUrl>
-    <AssemblyVersion>1.2.0</AssemblyVersion>
-    <FileVersion>1.2.0</FileVersion>
-    <Version>1.2.0</Version>
+    <PackageProjectUrl>https://keerthirajap.github.io/Effortless.Net.Core.Encryption/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/keerthirajap/Effortless.Net.Core.Encryption/</RepositoryUrl>
+    <AssemblyVersion>1.3.0</AssemblyVersion>
+    <FileVersion>1.3.0</FileVersion>
+    <Version>1.3.0</Version>
     <PackageTags>c# security password hash digest signature encryption</PackageTags>
   </PropertyGroup>
 
