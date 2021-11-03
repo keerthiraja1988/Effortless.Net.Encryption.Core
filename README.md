@@ -10,10 +10,10 @@ Effortless .Net Encryption Core is a library that is written in C#, .Net Core an
 *   Hashing and Digest creation/validation.
 *   Password and salt creation.
 
-Thanks to ##Simon Hughes
+Thanks to ###Simon Hughes
 
 
-### Before You Begin
+### **Before You Begin**
 
  Supported .Net Core Version : 5.0
 
