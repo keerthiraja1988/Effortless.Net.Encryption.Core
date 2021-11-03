@@ -4,7 +4,7 @@
 
 .Net Core version of https://github.com/sjh37/Effortless-.Net-Encryption
  
-Effortless .Net Encryption Core is a library that is written in C#, .Net Core and provides:
+Effortless .Net Core Encryption  is a library that is written in C#, .Net Core and provides:
 
 *   Rijndael encryption/decryption.
 *   Hashing and Digest creation/validation.
@@ -26,7 +26,7 @@ Thanks to ###Simon Hughes
 
 ### Nuget
 
-[https://www.nuget.org/packages/Effortless.Net.Encryption.Core/](https://www.nuget.org/packages/Effortless.Net.Encryption.Core/ "https://www.nuget.org/packages/Effortless.Net.Encryption.Core/")
+[https://www.nuget.org/packages/Effortless.Net.Core.Encryption/](https://www.nuget.org/packages/Effortless.Net.Core.Encryption/ "https://www.nuget.org/packages/Effortless.Net.Core.Encryption/")
 
 To install Effortless.Net.Encryption.Core, run the following command in the [ Package Manager Console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console)
 
@@ -96,8 +96,8 @@ Assert.AreEqual("Hello", decryptedMessage);
 
 ### Links
 
-Github : [https://github.com/keerthirajap/Effortless.Net.Encryption.Core](https://github.com/keerthirajap/Effortless.Net.Encryption.Core)
+Github : [https://github.com/keerthirajap/Effortless.Net.Core.Encryption/](https://github.com/keerthirajap/Effortless.Net.Core.Encryption/)
 
-Github Pages : [https://keerthirajap.github.io/Effortless.Net.Encryption.Core/](https://keerthirajap.github.io/Effortless.Net.Encryption.Core/)
+Github Pages : [https://keerthirajap.github.io/Effortless.Net.Core.Encryption/](https://keerthirajap.github.io/Effortless.Net.Core.Encryption/)
 
-Nuget : [https://www.nuget.org/packages/Effortless.Net.Encryption.Core/](https://www.nuget.org/packages/Effortless.Net.Encryption.Core/)
+Nuget : [https://www.nuget.org/packages/Effortless.Net.Core.Encryption/](https://www.nuget.org/packages/Effortless.Net.Core.Encryption/)
