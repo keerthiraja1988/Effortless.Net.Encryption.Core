@@ -5,10 +5,10 @@
 
     <IsPackable>false</IsPackable>
 
-    <PackageId>Effortless.Net.Core.Encryption</PackageId>
+    <PackageId>Effortless.Net.Encryption.Tests.Unit</PackageId>
     <Authors>Keerthi Raja P</Authors>
     <Company>Simon Hughes, www.hicrest.net</Company>
-    <Product>Effortless.Net.Core.Encryption</Product>
+    <Product>Effortless.Net.Encryption.Tests.Unit</Product>
     <Description>
       .Net Core version of https://github.com/sjh37/Effortless-.Net-Encryption
 
