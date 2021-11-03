@@ -28,9 +28,9 @@ Thanks to ###Simon Hughes
 
 [https://www.nuget.org/packages/Effortless.Net.Core.Encryption/](https://www.nuget.org/packages/Effortless.Net.Core.Encryption/ "https://www.nuget.org/packages/Effortless.Net.Core.Encryption/")
 
-To install Effortless.Net.Encryption.Core, run the following command in the [ Package Manager Console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console)
+To install Effortless.Net.Core.Encryption, run the following command in the [ Package Manager Console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console)
 
-`PM> dotnet add package Effortless.Net.Encryption.Core`
+`PM> dotnet add package Effortless.Net.Core.Encryption`
 
 
 ### Overview
