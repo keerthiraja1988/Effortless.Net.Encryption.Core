@@ -97,3 +97,7 @@ Assert.AreEqual("Hello", decryptedMessage);
 ### Links
 
 Github : [https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core/](https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core/"https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core/")
+
+Github Pages : [https://keerthiraja1988.github.io/Effortless.Net.Encryption.Core/](https://keerthiraja1988.github.io/Effortless.Net.Encryption.Core/"https://keerthiraja1988.github.io/Effortless.Net.Encryption.Core/")
+
+Nuget : [https://www.nuget.org/packages/Effortless.Net.Encryption.Core/](https://www.nuget.org/packages/Effortless.Net.Encryption.Core/"https://www.nuget.org/packages/Effortless.Net.Encryption.Core/")
