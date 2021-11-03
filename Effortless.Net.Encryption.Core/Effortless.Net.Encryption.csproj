@@ -18,12 +18,12 @@
     </Description>
     <Copyright>Copyright © Simon Hughes 2012</Copyright>
     <PackageProjectUrl>https://keerthiraja1988.github.io/Effortless.Net.Encryption.Core/</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core</RepositoryUrl>
+    <RepositoryUrl>https://github.com/keerthirajap/Effortless.Net.Encryption.Core</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IsPackable>true</IsPackable>
-    <AssemblyVersion>1.0.0.8</AssemblyVersion>
-    <FileVersion>1.0.0.8</FileVersion>
-    <Version>1.0.8</Version>
+    <AssemblyVersion>1.0.0.9</AssemblyVersion>
+    <FileVersion>1.0.0.9</FileVersion>
+    <Version>1.0.9</Version>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <RepositoryType>Public</RepositoryType>
     <PackageTags>c# security password hash digest signature encryption</PackageTags>
