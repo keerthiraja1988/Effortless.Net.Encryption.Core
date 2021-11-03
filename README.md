@@ -4,16 +4,16 @@
 
 .Net Core version of https://github.com/sjh37/Effortless-.Net-Encryption
  
-Effortless .Net Encryption Core is a library that is written in C# + .Net Core and provides:
+Effortless .Net Encryption Core is a library that is written in C#, .Net Core and provides:
 
 *   Rijndael encryption/decryption.
 *   Hashing and Digest creation/validation.
 *   Password and salt creation.
 
-Thanks to Simon Hughes
+Thanks to ##Simon Hughes
 
 
-### A NOTE Before migration
+### Before You Begin
 
  Supported .Net Core Version : 5.0
 
@@ -93,3 +93,7 @@ var secretMessage = bob.Encrypt(alice, "Hello");
 var decryptedMessage = alice.Decrypt(bob, secretMessage);
 Assert.AreEqual("Hello", decryptedMessage);
 ```
+### Links
+
+## Github
+[https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core/](https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core/"https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core/")
