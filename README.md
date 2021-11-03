@@ -20,6 +20,8 @@ Thanks to Simon Hughes
  
 [dotnet github : RijndaelImplementation.cs](https://github.com/dotnet/runtime/blob/main/src/libraries/System.Security.Cryptography.Algorithms/src/Internal/Cryptography/RijndaelImplementation.cs "https://github.com/dotnet/runtime/blob/main/src/libraries/System.Security.Cryptography.Algorithms/src/Internal/Cryptography/RijndaelImplementation.cs")
 
+### Supported .Net Core Version : 5.0
+
 ### Nuget
 
 [https://www.nuget.org/packages/Effortless.Net.Encryption.Core/](https://www.nuget.org/packages/Effortless.Net.Encryption.Core/ "https://www.nuget.org/packages/Effortless.Net.Encryption.Core/")
