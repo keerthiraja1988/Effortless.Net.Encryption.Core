@@ -51,6 +51,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Effortless.Net.Core.Encryption\Effortless.Net.Encryption.csproj" />
+    <ProjectReference Include="..\Effortless.Net.Encryption\Effortless.Net.Encryption.csproj" />
   </ItemGroup>
 </Project>
