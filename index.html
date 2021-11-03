@@ -29,7 +29,7 @@
 </head>
 <body data-bs-spy="scroll" data-bs-offset="15" data-bs-target="#myScrollspy">
 
-    <div class="container-fluid">
+    <div class="container-fluid bg-light">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
 
             <a href="#" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
@@ -47,15 +47,16 @@
             <div class="row">
                 <div class="col-sm-3" id="myScrollspy">
                     <div class="list-group">
-                        <a class="list-group-item list-group-item-action active" href="#section1">Project Description</a>
-                        <a class="list-group-item list-group-item-action" href="#section2">Note</a>
-                        <a class="list-group-item list-group-item-action" href="#section4">Nuget</a>
-                        <a class="list-group-item list-group-item-action" href="#section5">Overview</a>
-                        <a class="list-group-item list-group-item-action" href="#section6">Examples</a>
+                        <a class="list-group-item list-group-item-action active" href="#ProjectDescription">Project Description</a>
+                        <a class="list-group-item list-group-item-action" href="#Note">Note</a>
+                        <a class="list-group-item list-group-item-action" href="#Installation">Installation</a>
+                        <a class="list-group-item list-group-item-action" href="#Overview">Overview</a>
+                        <a class="list-group-item list-group-item-action" href="#Examples">Examples</a>
+                        <a class="list-group-item list-group-item-action" href="#Links">Links</a>
                     </div>
                 </div>
                 <div class="col-sm-9">
-                    <div id="section1">
+                    <div id="ProjectDescription">
                         <h2>Project Description</h2>
                         <p class="lead">
                             .Net Core version of <a href="https://github.com/sjh37/Effortless-.Net-Encryption">https://github.com/sjh37/Effortless-.Net-Encryption</a>
@@ -72,15 +73,9 @@
                             </li>
                             <li class="pt-2">Thanks to <b>Simon Hughes</b> </li>
                         </ul>
-
-                        <h4 class="pt-2">Github</h4>
-
-                        <p class="pt-1">
-                            <a href="https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core">https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core</a>
-                        </p>
                     </div>
                     <hr>
-                    <div id="section2">
+                    <div id="Note">
 
                         <h3 class="pt-2">**Before You Begin**</h3>
 
@@ -103,8 +98,8 @@
                     </div>
 
                     <hr>
-                    <div id="section4">
-                        <h3 class="pt-2">Nuget</h3>
+                    <div id="Installation">
+                        <h3 class="pt-2">Installation</h3>
 
                         <p class="pt-1">
                             <a href="https://www.nuget.org/packages/Effortless.Net.Encryption.Core/">https://www.nuget.org/packages/Effortless.Net.Encryption.Core/</a>
@@ -117,7 +112,7 @@
                         <samp class="bg-light">PM> dotnet add package Effortless.Net.Encryption.Core</samp>
                     </div>
                     <hr>
-                    <div id="section5">
+                    <div id="Overview">
 
                         <h3 class="pt-4">Overview</h3>
 
@@ -133,7 +128,7 @@
                         </ul>
                     </div>
                     <hr>
-                    <div id="section6">
+                    <div id="Examples">
 
                         <h3 class="pt-2">Examples</h3>
 
@@ -185,6 +180,30 @@
     var decryptedMessage = alice.Decrypt(bob, secretMessage);
     Assert.AreEqual("Hello", decryptedMessage);
 </code></pre>
+                    </div>
+                    <hr>
+
+                    <div id="Links">
+
+                        <h3 class="pt-4">Overview</h3>
+
+                        <h5 class="pt-2">Github</h5>
+
+                        <p class="pt-1">
+                            <a href="https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core">https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core</a>
+                        </p>
+
+                        <h5 class="pt-2">Github pages</h5>
+
+                        <p class="pt-1">
+                            <a href="https://www.nuget.org/packages/Effortless.Net.Encryption.Core/">https://www.nuget.org/packages/Effortless.Net.Encryption.Core/</a>
+                        </p>
+
+                        <h5 class="pt-2">Nuget</h5>
+
+                        <p class="pt-1">
+                            <a href="https://www.nuget.org/packages/Effortless.Net.Encryption.Core/">https://www.nuget.org/packages/Effortless.Net.Encryption.Core/</a>
+                        </p>
                     </div>
                 </div>
             </div>
