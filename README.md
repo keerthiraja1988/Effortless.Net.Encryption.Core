@@ -43,7 +43,7 @@ The project is split into four main areas
 *   Bytes – The core of the library. This uses the Rijndael algorithm and works at the byte[] level for most functions.
 
 
-### Some examples
+### Examples
 
 ```c#
 // Creating passwords & salts
