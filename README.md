@@ -10,10 +10,10 @@ Effortless .Net Encryption Core is a library that is written in C#, .Net Core an
 *   Hashing and Digest creation/validation.
 *   Password and salt creation.
 
-Thanks to ##Simon Hughes
+Thanks to ###Simon Hughes
 
 
-### Before You Begin
+### **Before You Begin**
 
  Supported .Net Core Version : 5.0
 
@@ -43,7 +43,7 @@ The project is split into four main areas
 *   Bytes – The core of the library. This uses the Rijndael algorithm and works at the byte[] level for most functions.
 
 
-### Some examples
+### Examples
 
 ```c#
 // Creating passwords & salts
@@ -93,7 +93,11 @@ var secretMessage = bob.Encrypt(alice, "Hello");
 var decryptedMessage = alice.Decrypt(bob, secretMessage);
 Assert.AreEqual("Hello", decryptedMessage);
 ```
-## Links
 
-## Github
-[https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core/](https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core/"https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core/")
+### Links
+
+Github : [https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core/](https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core/"https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core/")
+
+Github Pages : [https://keerthiraja1988.github.io/Effortless.Net.Encryption.Core/](https://keerthiraja1988.github.io/Effortless.Net.Encryption.Core/"https://keerthiraja1988.github.io/Effortless.Net.Encryption.Core/")
+
+Nuget : [https://www.nuget.org/packages/Effortless.Net.Encryption.Core/](https://www.nuget.org/packages/Effortless.Net.Encryption.Core/"https://www.nuget.org/packages/Effortless.Net.Encryption.Core/")
