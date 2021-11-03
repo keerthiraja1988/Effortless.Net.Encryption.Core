@@ -12,6 +12,7 @@ Effortless .Net Encryption Core is a library that is written in C# + .Net Core a
 
 Thanks to Simon Hughes
 
+
 ### A NOTE Before migration
 
  Supported .Net Core Version : 5.0
@@ -22,6 +23,7 @@ Thanks to Simon Hughes
 
  Source 2 : [dotnet github : RijndaelImplementation.cs](https://github.com/dotnet/runtime/blob/main/src/libraries/System.Security.Cryptography.Algorithms/src/Internal/Cryptography/RijndaelImplementation.cs "https://github.com/dotnet/runtime/blob/main/src/libraries/System.Security.Cryptography.Algorithms/src/Internal/Cryptography/RijndaelImplementation.cs")
 
+
 ### Nuget
 
 [https://www.nuget.org/packages/Effortless.Net.Encryption.Core/](https://www.nuget.org/packages/Effortless.Net.Encryption.Core/ "https://www.nuget.org/packages/Effortless.Net.Encryption.Core/")
@@ -29,6 +31,7 @@ Thanks to Simon Hughes
 To install Effortless.Net.Encryption.Core, run the following command in the [ Package Manager Console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console)
 
 `PM> dotnet add package Effortless.Net.Encryption.Core`
+
 
 ### Overview
 
@@ -38,6 +41,7 @@ The project is split into four main areas
 *   Hash – Creation and verification of hashes using MD5, SHA1, SHA256, SHA384, SHA512.
 *   Digest – Creation and verification of digests (data + hash). Plus two handy ToString() and CreateFromString() functions which come in handy if you want to store data in a Cookie.
 *   Bytes – The core of the library. This uses the Rijndael algorithm and works at the byte[] level for most functions.
+
 
 ### Some examples
 
