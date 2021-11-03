@@ -93,7 +93,8 @@ var secretMessage = bob.Encrypt(alice, "Hello");
 var decryptedMessage = alice.Decrypt(bob, secretMessage);
 Assert.AreEqual("Hello", decryptedMessage);
 ```
-## Links
+
+##$ Links
 
 ## Github
 [https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core/](https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core/"https://github.com/keerthiraja1988/Effortless.Net.Encryption.Core/")
