@@ -4,7 +4,7 @@
     <!--<TargetFrameworks>netcoreapp2.0;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0;netcoreapp3.1;net5.0</TargetFrameworks>-->
 
     <TargetFrameworks>net5.0</TargetFrameworks>
-
+    <IsTestProject>false</IsTestProject>
     <PackageId>Effortless.Net.Encryption.Core</PackageId>
     <Authors>Keerthi Raja P</Authors>
     <Company>Simon Hughes, www.hicrest.net</Company>
