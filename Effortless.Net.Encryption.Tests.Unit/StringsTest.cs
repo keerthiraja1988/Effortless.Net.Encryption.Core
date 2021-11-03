@@ -107,7 +107,8 @@ namespace Effortless.Net.Encryption.Tests.Unit
         {
             const string password = "Hello world";
             const string salt = "saltsaltsalt";
-            var iv = string.Empty.PadLeft(16, '#'); //todo
+            var iv = string.Empty.PadLeft(16, '#');  //UNDONE According to .Net Core source code only 128 is supported in Rijndael: https://stackoverflow.com/questions/52699604/how-to-use-rijndael-algorithm-with-256-long-block-size-in-dotnet-core-2-1
+
             const string original = "My secret text";
 
             var encrypted = Strings.Encrypt(original, password, salt, iv, keySize, 1);

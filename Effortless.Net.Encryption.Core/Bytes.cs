@@ -44,7 +44,7 @@ namespace Effortless.Net.Encryption
             Size128 = 128,
             //Size192 = 192,
             //Size256 = 256
-            //todo
+            //UNDONE According to .Net Core source code only 128 is supported in Rijndael: https://stackoverflow.com/questions/52699604/how-to-use-rijndael-algorithm-with-256-long-block-size-in-dotnet-core-2-1
         }
 
         public enum KeySize
