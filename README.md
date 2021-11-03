@@ -1,7 +1,7 @@
 ## NOTE
 
 
-[https://github.com/dotnet/runtime/blob/main/src/libraries/System.Security.Cryptography.Algorithms/src/Internal/Cryptography/RijndaelImplementation.cs](RijndaelImplementation "RijndaelImplementation")
+[RijndaelImplementation](RijndaelImplementation "https://github.com/dotnet/runtime/blob/main/src/libraries/System.Security.Cryptography.Algorithms/src/Internal/Cryptography/RijndaelImplementation.cs")
 
 
 ## Effortless .Net Encryption Core
