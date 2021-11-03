@@ -12,15 +12,15 @@ Effortless .Net Encryption Core is a library that is written in C# + .Net Core a
 
 Thanks to Simon Hughes
 
-### NOTE Before migration
+### A NOTE Before migration
 
- #According to .Net Core source code, only 128 Block Size is supported in Rijndael:
- 
- Source  : https://stackoverflow.com/questions/52699604/how-to-use-rijndael-algorithm-with-256-long-block-size-in-dotnet-core-2-1
- 
-[dotnet github : RijndaelImplementation.cs](https://github.com/dotnet/runtime/blob/main/src/libraries/System.Security.Cryptography.Algorithms/src/Internal/Cryptography/RijndaelImplementation.cs "https://github.com/dotnet/runtime/blob/main/src/libraries/System.Security.Cryptography.Algorithms/src/Internal/Cryptography/RijndaelImplementation.cs")
+ Supported .Net Core Version : 5.0
 
-### Supported .Net Core Version : 5.0
+ According to .Net Core source code, only 128 Block Size is supported in Rijndael:
+ 
+ Source 1 : https://stackoverflow.com/questions/52699604/how-to-use-rijndael-algorithm-with-256-long-block-size-in-dotnet-core-2-1
+
+ Source 2 : [dotnet github : RijndaelImplementation.cs](https://github.com/dotnet/runtime/blob/main/src/libraries/System.Security.Cryptography.Algorithms/src/Internal/Cryptography/RijndaelImplementation.cs "https://github.com/dotnet/runtime/blob/main/src/libraries/System.Security.Cryptography.Algorithms/src/Internal/Cryptography/RijndaelImplementation.cs")
 
 ### Nuget
 
