@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Effortless.Net.Encryption", "Effortless.Net.Encryption.Core\Effortless.Net.Encryption.csproj", "{7057C2C1-8995-43C6-AD94-4C43B9FDDEFC}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5BB74422-C775-44AF-A768-859411B6FE3E}"
 	ProjectSection(SolutionItems) = preProject
 		index.html = index.html
@@ -12,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Effortless.Net.Encryption.Tests.Unit", "Effortless.Net.Encryption.Core.Tests.Unit\Effortless.Net.Encryption.Tests.Unit.csproj", "{D9B58C1D-AF63-4C85-BB0D-176C42074204}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Effortless.Net.Encryption", "Effortless.Net.Core.Encryption\Effortless.Net.Encryption.csproj", "{53A33E64-15D7-43E5-BF7B-19F29BD0B5F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Effortless.Net.Encryption.Tests.Unit", "Effortless.Net.Core.Encryption.Tests.Unit\Effortless.Net.Encryption.Tests.Unit.csproj", "{494EAAB8-AF08-4E6B-9CDF-0EB68543F5D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,14 +20,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7057C2C1-8995-43C6-AD94-4C43B9FDDEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7057C2C1-8995-43C6-AD94-4C43B9FDDEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7057C2C1-8995-43C6-AD94-4C43B9FDDEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7057C2C1-8995-43C6-AD94-4C43B9FDDEFC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D9B58C1D-AF63-4C85-BB0D-176C42074204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D9B58C1D-AF63-4C85-BB0D-176C42074204}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D9B58C1D-AF63-4C85-BB0D-176C42074204}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D9B58C1D-AF63-4C85-BB0D-176C42074204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A33E64-15D7-43E5-BF7B-19F29BD0B5F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A33E64-15D7-43E5-BF7B-19F29BD0B5F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A33E64-15D7-43E5-BF7B-19F29BD0B5F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A33E64-15D7-43E5-BF7B-19F29BD0B5F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{494EAAB8-AF08-4E6B-9CDF-0EB68543F5D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{494EAAB8-AF08-4E6B-9CDF-0EB68543F5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{494EAAB8-AF08-4E6B-9CDF-0EB68543F5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{494EAAB8-AF08-4E6B-9CDF-0EB68543F5D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
