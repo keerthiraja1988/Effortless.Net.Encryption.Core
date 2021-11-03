@@ -17,7 +17,7 @@
       Thanks to Simon Hughes
     </Description>
     <Copyright>Copyright © Simon Hughes 2012</Copyright>
-    <PackageProjectUrl>https://keerthiraja1988.github.io/Effortless.Net.Encryption.Core/</PackageProjectUrl>
+    <PackageProjectUrl>https://keerthirajap.github.io/Effortless.Net.Encryption.Core/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/keerthirajap/Effortless.Net.Encryption.Core</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IsPackable>true</IsPackable>
