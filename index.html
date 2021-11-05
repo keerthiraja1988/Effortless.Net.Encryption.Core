@@ -62,11 +62,12 @@
                 <div class="col-sm-3" id="myScrollspy">
                     <div class="list-group">
                         <a class="list-group-item list-group-item-action active" href="#ProjectDescription">Project Description</a>
-                        <a class="list-group-item list-group-item-action" href="#ThanksTo">Thanks To</a>
+                        <a class="list-group-item list-group-item-action" href="#CopyRights">Copy Rights</a>
                         <a class="list-group-item list-group-item-action" href="#BeforeYouBegin">Before You Begin</a>
                         <a class="list-group-item list-group-item-action" href="#Installation">Installation</a>
                         <a class="list-group-item list-group-item-action" href="#Overview">Overview</a>
                         <a class="list-group-item list-group-item-action" href="#Examples">Examples</a>
+                        <a class="list-group-item list-group-item-action" href="#CodeCoverage">Code Coverage</a>
                         <a class="list-group-item list-group-item-action" href="#Links">Links</a>
                     </div>
                 </div>
@@ -85,90 +86,92 @@
                                 </ul>
                             </li>
                         </ul>
-
-                        <p></p>
                     </div>
                     <hr>
-                    <div class="col-sm-9 pt-2">
-                        <div id="ThanksTo">
-                            <h2>Thanks To</h2>
 
-                            <p class="pt-2">
-                                <span class="lead">
-                                    This is a cloned .Net Core version of orginal work from
-                                </span>  <a href="https://github.com/sjh37/Effortless-.Net-Encryption">https://github.com/sjh37/Effortless-.Net-Encryption</a>
-                            </p>
-                            <p class="pt-0">
-                                <span class="lead">
-                                    Special thanks to <b>Simon Hughes</b>
-                                </span>  <a href="https://github.com/sjh37">https://github.com/sjh37</a>
-                            </p>
-                        </div>
-                        <hr>
+                    <div id="CopyRights">
+                        <h2>Copy Rights</h2>
 
-                        <div id="BeforeYouBegin">
+                        <p class="pt-2">
+                            <span class="lead">
+                                This is a cloned .Net Core version of orginal work from
+                            </span>  <a href="https://github.com/sjh37/Effortless-.Net-Encryption">https://github.com/sjh37/Effortless-.Net-Encryption</a>
+                        </p>
+                        <p class="pt-0">
+                            <span class="lead">
+                                Special thanks to <b>Simon Hughes</b>
+                            </span>  <a href="https://github.com/sjh37">https://github.com/sjh37</a>
+                        </p>
+                    </div>
+                    <hr>
 
-                            <h3 class="pt-2">**Before You Begin**</h3>
+                    <div id="BeforeYouBegin">
 
-                            <p class="pt-1">
-                                1. Supported .Net Core Versions : 5.0
-                            </p>
+                        <h3 class="pt-2">**Before You Begin**</h3>
 
-                            <p class="">
-                                2. According to .Net Core source code, only 128 Block Size is supported in Rijndael, Sources:
-                            </p>
+                        <p class="pt-1">
+                            1. Supported .Net Core Versions : 5.0
+                        </p>
 
-                            <ul class="list-unstyled">
-                                <li>
-                                    <ul>
-                                        <li class="pt-1"><a href="https://stackoverflow.com/questions/52699604/how-to-use-rijndael-algorithm-with-256-long-block-size-in-dotnet-core-2-1"> Stackoverflow.com/questions/52699604</a></li>
-                                        <li class="pt-1"><a href="https://github.com/dotnet/runtime/blob/main/src/libraries/System.Security.Cryptography.Algorithms/src/Internal/Cryptography/RijndaelImplementation.cs">Cryptography/RijndaelImplementation.cs</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
+                        <p class="pt-1">
+                            2. Supported Operating System : Windows
+                        </p>
 
-                        <hr>
-                        <div id="Installation">
-                            <h3 class="pt-2">Installation</h3>
+                        <p class="">
+                            3. According to .Net Core source code, only 128 Block Size is supported in Rijndael, Sources:
+                        </p>
 
-                            <p class="pt-1">
-                                <a href="https://www.nuget.org/packages/Effortless.Net.Core.Encryption/">https://www.nuget.org/packages/Effortless.Net.Core.Encryption/</a>
-                            </p>
+                        <ul class="list-unstyled">
+                            <li>
+                                <ul>
+                                    <li class="pt-1"><a href="https://stackoverflow.com/questions/52699604/how-to-use-rijndael-algorithm-with-256-long-block-size-in-dotnet-core-2-1"> Stackoverflow.com/questions/52699604</a></li>
+                                    <li class="pt-1"><a href="https://github.com/dotnet/runtime/blob/main/src/libraries/System.Security.Cryptography.Algorithms/src/Internal/Cryptography/RijndaelImplementation.cs">Cryptography/RijndaelImplementation.cs</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
 
-                            <p class="">
-                                To install Effortless.Net.Core.Encryption, run the following command in the <a href="https://docs.microsoft.com/en-us/nuget/consume-packages/install-use-packages-powershell">Package Manager Console</a>
-                            </p>
+                    <hr>
+                    <div id="Installation">
+                        <h3 class="pt-2">Installation</h3>
 
-                            <samp class="bg-light">PM> dotnet add package Effortless.Net.Core.Encryption</samp>
-                        </div>
-                        <hr>
-                        <div id="Overview">
+                        <p class="pt-1">
+                            <a href="https://www.nuget.org/packages/Effortless.Net.Core.Encryption/">https://www.nuget.org/packages/Effortless.Net.Core.Encryption/</a>
+                        </p>
 
-                            <h3 class="pt-4">Overview</h3>
+                        <p class="">
+                            To install Effortless.Net.Core.Encryption, run the following command in the <a href="https://docs.microsoft.com/en-us/nuget/consume-packages/install-use-packages-powershell">Package Manager Console</a>
+                        </p>
 
-                            <p class="">
-                                The project is split into four main areas
-                            </p>
+                        <samp class="bg-light">PM> dotnet add package Effortless.Net.Core.Encryption</samp>
+                    </div>
+                    <hr>
+                    <div id="Overview">
 
-                            <ul class="list-unstyled">
+                        <h3 class="pt-4">Overview</h3>
 
-                                <li class="ps-3">
-                                    <ul>
-                                        <li class="pt-1">Strings – Encryption/Decryption/Password and Salt generation</li>
-                                        <li class="pt-1">Hash – Creation and verification of hashes using MD5, SHA1, SHA256, SHA384, SHA512.</li>
-                                        <li class="pt-1">Digest – Creation and verification of digests (data + hash). Plus two handy ToString() and CreateFromString() functions which come in handy if you want to store data in a Cookie.</li>
-                                        <li class="pt-1">Bytes – The core of the library. This uses the Rijndael algorithm and works at the byte[] level for most functions.</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <hr>
-                        <div id="Examples">
+                        <p class="">
+                            The project is split into four main areas
+                        </p>
 
-                            <h3 class="pt-2">Examples</h3>
+                        <ul class="list-unstyled">
 
-                            <pre class="bg-light"><code>
+                            <li class="ps-3">
+                                <ul>
+                                    <li class="pt-1">Strings – Encryption/Decryption/Password and Salt generation</li>
+                                    <li class="pt-1">Hash – Creation and verification of hashes using MD5, SHA1, SHA256, SHA384, SHA512.</li>
+                                    <li class="pt-1">Digest – Creation and verification of digests (data + hash). Plus two handy ToString() and CreateFromString() functions which come in handy if you want to store data in a Cookie.</li>
+                                    <li class="pt-1">Bytes – The core of the library. This uses the Rijndael algorithm and works at the byte[] level for most functions.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div id="Examples">
+
+                        <h3 class="pt-2">Examples</h3>
+
+                        <pre class="bg-light"><code>
     // Creating passwords & salts
     string password = Strings.CreatePassword(15, true);
     string salt = Strings.CreateSalt(20);
@@ -216,34 +219,57 @@
     var decryptedMessage = alice.Decrypt(bob, secretMessage);
     Assert.AreEqual("Hello", decryptedMessage);
 </code></pre>
-                        </div>
-                        <hr>
+                    </div>
 
-                        <div id="Links">
+                    <hr>
 
-                            <h3 class="pt-4">Links</h3>
+                    <div id="CodeCoverage">
 
-                            <h5 class="pt-2">Github</h5>
+                        <h3 class="pt-4">Code Coverage</h3>
 
-                            <p class="pt-1">
-                                <a href="https://github.com/keerthirajap/Effortless.Net.Core.Encryption/">https://github.com/keerthirajap/Effortless.Net.Core.Encryption/</a>
-                            </p>
+                        <pre class="bg-light"><code>
+    +---------------------------+--------+--------+--------+
+    | Module                    | Line   | Branch | Method |
+    +---------------------------+--------+--------+--------+
+    | Effortless.Net.Encryption | 86.42% | 54.13% | 86.11% |
+    +---------------------------+--------+--------+--------+
 
-                            <h5 class="pt-2">Github Pages</h5>
+    +---------+--------+--------+--------+
+    |         | Line   | Branch | Method |
+    +---------+--------+--------+--------+
+    | Total   | 86.42% | 54.13% | 86.11% |
+    +---------+--------+--------+--------+
+    | Average | 86.42% | 54.13% | 86.11% |
+    +---------+--------+--------+--------+
+</code></pre>
+                    </div>
+                    <hr>
 
-                            <p class="pt-1">
-                                <a href="https://keerthirajap.github.io/Effortless.Net.Core.Encryption/">https://keerthirajap.github.io/Effortless.Net.Core.Encryption/</a>
-                            </p>
+                    <div id="Links">
 
-                            <h5 class="pt-2">Nuget</h5>
+                        <h3 class="pt-4">Links</h3>
 
-                            <p class="pt-1">
-                                <a href="https://www.nuget.org/packages/Effortless.Net.Core.Encryption/">https://www.nuget.org/packages/Effortless.Net.Core.Encryption/</a>
-                            </p>
-                        </div>
+                        <h5 class="pt-2">Github</h5>
+
+                        <p class="pt-1">
+                            <a href="https://github.com/keerthirajap/Effortless.Net.Core.Encryption/">https://github.com/keerthirajap/Effortless.Net.Core.Encryption/</a>
+                        </p>
+
+                        <h5 class="pt-2">Github Pages</h5>
+
+                        <p class="pt-1">
+                            <a href="https://keerthirajap.github.io/Effortless.Net.Core.Encryption/">https://keerthirajap.github.io/Effortless.Net.Core.Encryption/</a>
+                        </p>
+
+                        <h5 class="pt-2">Nuget</h5>
+
+                        <p class="pt-1">
+                            <a href="https://www.nuget.org/packages/Effortless.Net.Core.Encryption/">https://www.nuget.org/packages/Effortless.Net.Core.Encryption/</a>
+                        </p>
                     </div>
                 </div>
             </div>
+        </div>
     </main>
 </body>
 </html>

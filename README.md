@@ -17,6 +17,8 @@ Thanks to ###Simon Hughes
 
  Supported .Net Core Version : 5.0
 
+ Supported Operating System : Windows
+
  According to .Net Core source code, only 128 Block Size is supported in Rijndael:
  
  Source 1 : https://stackoverflow.com/questions/52699604/how-to-use-rijndael-algorithm-with-256-long-block-size-in-dotnet-core-2-1
